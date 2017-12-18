@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin:0;
+        padding:0;
+    }
+</style>
+<body>
+
+</body>
+</html>
+<script src="function.js"></script>
+<script>
+    class Code{
+        constructor(){
+            this.char = ['Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M'];
+            this.length = 5;
+            this.current = [];
+        }
+        start(){
+            this.getChars(this.length);
+            this.drop();
+        }
+
+        getChars(length){
+            for(let i = 0;i<length;i++){
+                this.getChar();
+            }
+        }
+        getChar(){
+            let num = Math.floor(Math.random()*this.char.length);
+            let divs = document.createElement('div');
+            let tops = Math.floor(Math.random()*100);
+            let lefts = Math.floor((window.innerWidth - 400)*Math.random()+200);
+            divs.style.cssText = `width:50px;height:50px;background:#000;color:#fff;
+                                  font-size:20px;text-align:center;line-height:50px;
+                                  position:absolute;top:${tops}px;left:${lefts}px;
+            `
+            divs.innerText = this.char[num];
+            document.body.appendChild(divs);
+            this.current.push(divs);
+        }
+        drop(){
+            let _this = this;
+            setInterval(function () {
+                for(let i = 0;i < _this.current.length;i++){
+                    let tops = _this.current[i].offsetTop + 10;
+                    _this.current[i].style.top = tops + 'px';
+                    if(tops >= 500){
+                        document.body.removeChild(_this.current[i]);
+                        _this.current.splice(i,1);
+                        _this.getChar();
+                    }
+                }
+            },100)
+        }
+    }
+
+</script>
+<script src="dazi.js"></script>
+
