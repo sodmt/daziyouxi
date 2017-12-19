@@ -9,57 +9,206 @@
         margin:0;
         padding:0;
     }
+    html{
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        width:100%;
+        height: 100%;
+        background-image: url("img/timg.jpg");
+        background-position: center;
+        background-size: 100% 100%;
+
+    }
+    .score{
+        width: auto;
+        height: 25px;
+        background: pink;
+        padding:0 5px;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top:20px;
+        left:100px;
+    }
+    .sm{
+        width: 100px;
+        height: 25px;
+        background: pink;
+        border-radius: 10px;
+        text-align: center;
+        position: absolute;
+        top:20px;
+        left:200px;
+    }
 </style>
 <body>
+    <div class="box">
+        <div class="score">分数：<span>0</span></div>
+        <div class="sm">生命值：<span>10</span></div>
+    </div>
 
 </body>
 </html>
 <script src="function.js"></script>
 <script>
-    class Code{
-        constructor(){
-            this.char = ['Q','W','E','R','T','Y','U','I','O','P','A','S','D','F','G','H','J','K','L','Z','X','C','V','B','N','M'];
+    class Code {
+        constructor() {
+            this.char = [['A','img/A.png'],['B','img/B.png'],['C','img/C.png'],['D','img/D.png'],['E','img/E.png'], ['F','img/F.png'],['G','img/G.png'],['H','img/H.png'],['I','img/I.png'],['J','img/J.png'],['K','img/K.png'],['L','img/L.png'],['M','img/M.png'],['N','img/N.png'],['O','img/O.png'],['P','img/P.png'],['Q','img/Q.png'],['R','img/R.png'], ['S','img/S.png'],['T','img/T.png'],['U','img/U.png'],['V','img/V.png'],['W','img/W.png'],['X','img/X.png'],['Y','img/Y.png'],['Z','img/Z.png']];
             this.length = 5;
             this.current = [];
+            this.position = [];
+            this.speed = 3;
+            this.fenshu = document.querySelector('.box>div:first-child>span');
+            this.score = 0;
+            this.life = document.querySelector('.box>div:last-child>span');
+            this.lifes = 10;
+            this.gq = 5;
         }
-        start(){
+
+        start() {
+            this.getChars(this.length);
+            this.drop();
+            this.keys();
+        }
+
+        getChars(length) {
+            for (let i = 0; i < length; i++) {
+                this.getChar();
+            }
+        }
+
+        checkExist(char){
+            return this.current.some(element =>element.innerText == char);
+        }
+
+        checkPosition(pos){
+            return this.position.some(element =>Math.abs(element-pos)<=70);
+        }
+
+        getChar() {
+            let num = Math.floor(Math.random() * this.char.length);
+            //判断是否重复
+            do {
+                num = Math.floor(Math.random() * this.char.length);
+            }while(this.checkExist(this.char[num][0]));
+
+
+            let divs = document.createElement('div');
+            let tops = Math.floor(Math.random() * 100);
+            let lefts = Math.floor((window.innerWidth - 400) * Math.random() + 200);
+
+
+            do{
+                lefts = Math.floor((window.innerWidth - 400) * Math.random() + 200);
+            }while (this.checkPosition(lefts));
+
+                /*function bg(){
+                let r = Math.floor(Math.random()*255);
+                let g = Math.floor(Math.random()*255);
+                let b = Math.floor(Math.random()*255);
+                return `rgb(${r},${g},${b})`;
+            }*/
+            divs.style.cssText = `width:65px;height:90px;color:#fff;
+                                  font-size:0;text-align:center;line-height:65px;
+                                  background:url(${this.char[num][1]}) center/cover;
+                                  position:absolute;top:${tops}px;left:${lefts}px;
+            `;
+            divs.innerText = this.char[num][0];
+            document.body.appendChild(divs);
+            this.current.push(divs);
+            this.position.push(lefts);
+        }
+
+        drop() {
+            let _this = this;
+            _this.t = setInterval(function () {
+                for (let i = 0; i < _this.current.length; i++) {
+                    let tops = _this.current[i].offsetTop + _this.speed;
+                    _this.current[i].style.top = tops + 'px';
+                    if (tops >= 500) {
+                        document.body.removeChild(_this.current[i]);
+                        _this.current.splice(i, 1);
+                        _this.position.splice(i, 1);
+                        _this.getChar();
+
+                        _this.lifes --;
+                        _this.life.innerText = _this.lifes;
+                        if(_this.lifes<0){
+                            let flag = confirm('是否重新开始')
+                            if(flag){
+                                _this.restart();
+                            }else{
+                                close();
+                            }
+                        }
+
+
+                    }
+                }
+            }, 100)
+        }
+
+        keys() {
+            let that = this;
+            document.onkeydown = function (e) {
+//                let code = String.fromCharCode(e.keyCode);
+                let code = e.key.toUpperCase();
+                for (let i = 0; i < that.current.length; i++) {
+                    if (code == that.current[i].innerText) {
+                        document.body.removeChild(that.current[i]);
+                        that.current.splice(i, 1);
+                        that.position.splice(i, 1);
+                        that.getChar();
+
+                        that.fenshu.innerText = ++that.score;
+                        if (that.score > that.gq) {
+                            that.next();
+                        }
+
+                    }
+                }
+            }
+        }
+
+        next() {
+            clearInterval(this.t);
+            this.current.forEach((element, index) => {
+                document.body.removeChild(element);
+        })
+            this.current = [];
+            this.position = [];
+
+            this.length++;
+            this.gq += 10;
             this.getChars(this.length);
             this.drop();
         }
 
-        getChars(length){
-            for(let i = 0;i<length;i++){
-                this.getChar();
-            }
+        restart(){
+            clearInterval(this.t);
+            this.current.forEach((element, index) => {
+                document.body.removeChild(element);
+        })
+            this.current = [];
+            this.position = [];
+
+            this.length = 5;
+
+            this.score = 0;
+            this.fenshu.innerText = this.score;
+
+            this.lifes = 10;
+            this.life.innerText = this.lifes;
+
+            this.getChars(this.length);
+            this.drop();
+
         }
-        getChar(){
-            let num = Math.floor(Math.random()*this.char.length);
-            let divs = document.createElement('div');
-            let tops = Math.floor(Math.random()*100);
-            let lefts = Math.floor((window.innerWidth - 400)*Math.random()+200);
-            divs.style.cssText = `width:50px;height:50px;background:#000;color:#fff;
-                                  font-size:20px;text-align:center;line-height:50px;
-                                  position:absolute;top:${tops}px;left:${lefts}px;
-            `
-            divs.innerText = this.char[num];
-            document.body.appendChild(divs);
-            this.current.push(divs);
-        }
-        drop(){
-            let _this = this;
-            setInterval(function () {
-                for(let i = 0;i < _this.current.length;i++){
-                    let tops = _this.current[i].offsetTop + 10;
-                    _this.current[i].style.top = tops + 'px';
-                    if(tops >= 500){
-                        document.body.removeChild(_this.current[i]);
-                        _this.current.splice(i,1);
-                        _this.getChar();
-                    }
-                }
-            },100)
-        }
+        
     }
+
 
 </script>
 <script src="dazi.js"></script>
