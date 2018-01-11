@@ -24,16 +24,18 @@
       <file leaf-file-name="dazi.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/dazi.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5488257">
-              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.8145859">
+              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
               <folding>
-                <element signature="e#1974#2075#0" expanded="false" />
-                <element signature="e#2102#2206#0" expanded="false" />
-                <element signature="e#2232#2318#0" expanded="false" />
-                <element signature="e#3823#4848#0" expanded="false" />
-                <element signature="e#4865#5635#0" expanded="false" />
-                <element signature="e#5652#5999#0" expanded="false" />
-                <element signature="e#6018#6495#0" expanded="false" />
+                <element signature="e#2452#2553#0" expanded="false" />
+                <element signature="e#2580#2684#0" expanded="false" />
+                <element signature="e#2710#2796#0" expanded="false" />
+                <element signature="e#2824#2911#0" expanded="false" />
+                <element signature="e#2931#4284#0" expanded="false" />
+                <element signature="e#4301#5326#0" expanded="false" />
+                <element signature="e#5343#6113#0" expanded="false" />
+                <element signature="e#6130#6477#0" expanded="false" />
+                <element signature="e#6496#6973#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -42,8 +44,8 @@
       <file leaf-file-name="dazi.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dazi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            <state vertical-scroll-proportion="-5.8421054">
+              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -159,23 +161,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -205,13 +207,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1974#2075#0" expanded="false" />
-            <element signature="e#2102#2206#0" expanded="false" />
-            <element signature="e#2232#2318#0" expanded="false" />
-            <element signature="e#3823#4848#0" expanded="false" />
-            <element signature="e#4865#5635#0" expanded="false" />
-            <element signature="e#5652#5999#0" expanded="false" />
-            <element signature="e#6018#6495#0" expanded="false" />
+            <element signature="e#2452#2553#0" expanded="false" />
+            <element signature="e#2580#2684#0" expanded="false" />
+            <element signature="e#2710#2796#0" expanded="false" />
+            <element signature="e#2824#2911#0" expanded="false" />
+            <element signature="e#2931#4284#0" expanded="false" />
+            <element signature="e#4301#5326#0" expanded="false" />
+            <element signature="e#5343#6113#0" expanded="false" />
+            <element signature="e#6130#6477#0" expanded="false" />
+            <element signature="e#6496#6973#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -229,70 +233,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1974#2075#0" expanded="false" />
-            <element signature="e#2102#2206#0" expanded="false" />
-            <element signature="e#2232#2318#0" expanded="false" />
-            <element signature="e#3823#4848#0" expanded="false" />
-            <element signature="e#4865#5635#0" expanded="false" />
-            <element signature="e#5652#5999#0" expanded="false" />
-            <element signature="e#6018#6495#0" expanded="false" />
+            <element signature="e#2452#2553#0" expanded="false" />
+            <element signature="e#2580#2684#0" expanded="false" />
+            <element signature="e#2710#2796#0" expanded="false" />
+            <element signature="e#2824#2911#0" expanded="false" />
+            <element signature="e#2931#4284#0" expanded="false" />
+            <element signature="e#4301#5326#0" expanded="false" />
+            <element signature="e#5343#6113#0" expanded="false" />
+            <element signature="e#6130#6477#0" expanded="false" />
+            <element signature="e#6496#6973#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dazi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dazi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1974#2075#0" expanded="false" />
-            <element signature="e#2102#2206#0" expanded="false" />
-            <element signature="e#2232#2318#0" expanded="false" />
-            <element signature="e#3823#4848#0" expanded="false" />
-            <element signature="e#4865#5635#0" expanded="false" />
-            <element signature="e#5652#5999#0" expanded="false" />
-            <element signature="e#6018#6495#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dazi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dazi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1974#2075#0" expanded="false" />
-            <element signature="e#2102#2206#0" expanded="false" />
-            <element signature="e#2232#2318#0" expanded="false" />
-            <element signature="e#3823#4848#0" expanded="false" />
-            <element signature="e#4865#5635#0" expanded="false" />
-            <element signature="e#5652#5999#0" expanded="false" />
-            <element signature="e#6018#6495#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dazi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -306,16 +256,104 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dazi.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5488257">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1974#2075#0" expanded="false" />
-            <element signature="e#2102#2206#0" expanded="false" />
-            <element signature="e#2232#2318#0" expanded="false" />
-            <element signature="e#3823#4848#0" expanded="false" />
-            <element signature="e#4865#5635#0" expanded="false" />
-            <element signature="e#5652#5999#0" expanded="false" />
-            <element signature="e#6018#6495#0" expanded="false" />
+            <element signature="e#2452#2553#0" expanded="false" />
+            <element signature="e#2580#2684#0" expanded="false" />
+            <element signature="e#2710#2796#0" expanded="false" />
+            <element signature="e#2824#2911#0" expanded="false" />
+            <element signature="e#2931#4284#0" expanded="false" />
+            <element signature="e#4301#5326#0" expanded="false" />
+            <element signature="e#5343#6113#0" expanded="false" />
+            <element signature="e#6130#6477#0" expanded="false" />
+            <element signature="e#6496#6973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dazi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dazi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2452#2553#0" expanded="false" />
+            <element signature="e#2580#2684#0" expanded="false" />
+            <element signature="e#2710#2796#0" expanded="false" />
+            <element signature="e#2824#2911#0" expanded="false" />
+            <element signature="e#2931#4284#0" expanded="false" />
+            <element signature="e#4301#5326#0" expanded="false" />
+            <element signature="e#5343#6113#0" expanded="false" />
+            <element signature="e#6130#6477#0" expanded="false" />
+            <element signature="e#6496#6973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dazi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dazi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#2452#2553#0" expanded="false" />
+            <element signature="e#2580#2684#0" expanded="false" />
+            <element signature="e#2710#2796#0" expanded="false" />
+            <element signature="e#2824#2911#0" expanded="false" />
+            <element signature="e#2931#4284#0" expanded="false" />
+            <element signature="e#4301#5326#0" expanded="false" />
+            <element signature="e#5343#6113#0" expanded="false" />
+            <element signature="e#6130#6477#0" expanded="false" />
+            <element signature="e#6496#6973#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dazi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dazi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8421054">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dazi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8145859">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+          <folding>
+            <element signature="e#2452#2553#0" expanded="false" />
+            <element signature="e#2580#2684#0" expanded="false" />
+            <element signature="e#2710#2796#0" expanded="false" />
+            <element signature="e#2824#2911#0" expanded="false" />
+            <element signature="e#2931#4284#0" expanded="false" />
+            <element signature="e#4301#5326#0" expanded="false" />
+            <element signature="e#5343#6113#0" expanded="false" />
+            <element signature="e#6130#6477#0" expanded="false" />
+            <element signature="e#6496#6973#0" expanded="false" />
           </folding>
         </state>
       </provider>
